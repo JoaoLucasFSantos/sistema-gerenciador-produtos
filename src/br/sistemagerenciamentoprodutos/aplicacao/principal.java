@@ -9,9 +9,7 @@ public class principal {
         Product produto1 = new Product(1000, "Doritos", 20, "Salgadinho");
         Product produto2 = new Product(1001, "Ruffles", 15, "Salgadinho");
 
-        System.out.println("------------------");
         produto1.exibDetails();
-        System.out.println("------------------");
         produto2.exibDetails();
 
         Gerenciador gerenciador = new Gerenciador();
@@ -20,10 +18,8 @@ public class principal {
 
         System.out.println("\nApós a atualização: ");
         produto1.exibDetails();
-        System.out.println("------------------");
         produto2.exibDetails();
 
-        System.out.println("-------------------");
         Product.exibirTotProductCad();
     }
 }

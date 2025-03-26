@@ -5,7 +5,6 @@ public class Gerenciador {
     public void attPrice(Product produto, double newPrice){
         if (newPrice > 0){
             produto.setPrice(newPrice);
-            System.out.println("----------------------------------------");
             System.out.println("o valor foi atualizado para: " + newPrice);
         }
         else {
